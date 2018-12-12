@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3FA88E4EAD6A2D153EBE3F2 /* libPods-EKSlider.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43833C7849CE8004F87A172A /* libPods-EKSlider.a */; };
+		FE470F6B21916D8E00FFEDD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE470F6A21916D8E00FFEDD7 /* AppDelegate.m */; };
+		FE470F6E21916D8E00FFEDD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE470F6D21916D8E00FFEDD7 /* ViewController.m */; };
+		FE470F7121916D8E00FFEDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE470F6F21916D8E00FFEDD7 /* Main.storyboard */; };
+		FE470F7321916D8F00FFEDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE470F7221916D8F00FFEDD7 /* Assets.xcassets */; };
+		FE470F7621916D8F00FFEDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE470F7421916D8F00FFEDD7 /* LaunchScreen.storyboard */; };
+		FE470F7921916D8F00FFEDD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE470F7821916D8F00FFEDD7 /* main.m */; };
+		FE470F852191729A00FFEDD7 /* EKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE470F842191729A00FFEDD7 /* EKViewController.m */; };
+		FE7C01DC2191B922004B2433 /* EKTableView2.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7C01DB2191B922004B2433 /* EKTableView2.m */; };
+		FE9187FD219175D50058B54E /* EKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9187FC219175D50058B54E /* EKScrollView.m */; };
+		FE9188002191787E0058B54E /* EKTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9187FF2191787E0058B54E /* EKTableView.m */; };
+		FE91880421917EEC0058B54E /* EKTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91880221917EEC0058B54E /* EKTableViewCell.m */; };
+		FE91880521917EEC0058B54E /* EKTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE91880321917EEC0058B54E /* EKTableViewCell.xib */; };
+		FE91880821918BD10058B54E /* EKBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91880721918BD10058B54E /* EKBannerView.m */; };
+		FE91880A21918BE20058B54E /* EKBannerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE91880921918BE20058B54E /* EKBannerView.xib */; };
+		FE91880D21919A800058B54E /* EKBabyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91880C21919A800058B54E /* EKBabyView.m */; };
+		FE91880F21919A8E0058B54E /* EKBabyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE91880E21919A8E0058B54E /* EKBabyView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43833C7849CE8004F87A172A /* libPods-EKSlider.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EKSlider.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAA23C1A3694256E95704E5 /* Pods-EKSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKSlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-EKSlider/Pods-EKSlider.release.xcconfig"; sourceTree = "<group>"; };
+		CA01FD4AE46DAC6F3E5DF311 /* Pods-EKSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKSlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EKSlider/Pods-EKSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		FE470F6621916D8E00FFEDD7 /* EKSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE470F6921916D8E00FFEDD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE470F6A21916D8E00FFEDD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE470F6C21916D8E00FFEDD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE470F6D21916D8E00FFEDD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE470F7021916D8E00FFEDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE470F7221916D8F00FFEDD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE470F7521916D8F00FFEDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE470F7721916D8F00FFEDD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE470F7821916D8F00FFEDD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE470F832191729A00FFEDD7 /* EKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKViewController.h; sourceTree = "<group>"; };
+		FE470F842191729A00FFEDD7 /* EKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKViewController.m; sourceTree = "<group>"; };
+		FE7C01DA2191B922004B2433 /* EKTableView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKTableView2.h; sourceTree = "<group>"; };
+		FE7C01DB2191B922004B2433 /* EKTableView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKTableView2.m; sourceTree = "<group>"; };
+		FE9187FB219175D50058B54E /* EKScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKScrollView.h; sourceTree = "<group>"; };
+		FE9187FC219175D50058B54E /* EKScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKScrollView.m; sourceTree = "<group>"; };
+		FE9187FE2191787E0058B54E /* EKTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKTableView.h; sourceTree = "<group>"; };
+		FE9187FF2191787E0058B54E /* EKTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKTableView.m; sourceTree = "<group>"; };
+		FE91880121917EEC0058B54E /* EKTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKTableViewCell.h; sourceTree = "<group>"; };
+		FE91880221917EEC0058B54E /* EKTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKTableViewCell.m; sourceTree = "<group>"; };
+		FE91880321917EEC0058B54E /* EKTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EKTableViewCell.xib; sourceTree = "<group>"; };
+		FE91880621918BD10058B54E /* EKBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKBannerView.h; sourceTree = "<group>"; };
+		FE91880721918BD10058B54E /* EKBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKBannerView.m; sourceTree = "<group>"; };
+		FE91880921918BE20058B54E /* EKBannerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EKBannerView.xib; sourceTree = "<group>"; };
+		FE91880B21919A800058B54E /* EKBabyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKBabyView.h; sourceTree = "<group>"; };
+		FE91880C21919A800058B54E /* EKBabyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKBabyView.m; sourceTree = "<group>"; };
+		FE91880E21919A8E0058B54E /* EKBabyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EKBabyView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE470F6321916D8E00FFEDD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA88E4EAD6A2D153EBE3F2 /* libPods-EKSlider.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F40AFE62E0843C78637160A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA01FD4AE46DAC6F3E5DF311 /* Pods-EKSlider.debug.xcconfig */,
+				BDAA23C1A3694256E95704E5 /* Pods-EKSlider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60E5FE2602427031BCEF1F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43833C7849CE8004F87A172A /* libPods-EKSlider.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE470F5D21916D8E00FFEDD7 = {
+			isa = PBXGroup;
+			children = (
+				FE470F7F21916EE900FFEDD7 /* Code */,
+				FE470F6821916D8E00FFEDD7 /* EKSlider */,
+				FE470F6721916D8E00FFEDD7 /* Products */,
+				4F40AFE62E0843C78637160A /* Pods */,
+				60E5FE2602427031BCEF1F48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE470F6721916D8E00FFEDD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE470F6621916D8E00FFEDD7 /* EKSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE470F6821916D8E00FFEDD7 /* EKSlider */ = {
+			isa = PBXGroup;
+			children = (
+				FE470F6921916D8E00FFEDD7 /* AppDelegate.h */,
+				FE470F6A21916D8E00FFEDD7 /* AppDelegate.m */,
+				FE470F6C21916D8E00FFEDD7 /* ViewController.h */,
+				FE470F6D21916D8E00FFEDD7 /* ViewController.m */,
+				FE470F6F21916D8E00FFEDD7 /* Main.storyboard */,
+				FE470F7221916D8F00FFEDD7 /* Assets.xcassets */,
+				FE470F7421916D8F00FFEDD7 /* LaunchScreen.storyboard */,
+				FE470F7721916D8F00FFEDD7 /* Info.plist */,
+				FE470F7821916D8F00FFEDD7 /* main.m */,
+			);
+			path = EKSlider;
+			sourceTree = "<group>";
+		};
+		FE470F7F21916EE900FFEDD7 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				FE470F822191726C00FFEDD7 /* Controller */,
+				FE470F802191726C00FFEDD7 /* View */,
+				FE470F812191726C00FFEDD7 /* Class */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		FE470F802191726C00FFEDD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FE91880121917EEC0058B54E /* EKTableViewCell.h */,
+				FE91880221917EEC0058B54E /* EKTableViewCell.m */,
+				FE91880321917EEC0058B54E /* EKTableViewCell.xib */,
+				FE91880621918BD10058B54E /* EKBannerView.h */,
+				FE91880721918BD10058B54E /* EKBannerView.m */,
+				FE91880921918BE20058B54E /* EKBannerView.xib */,
+				FE91880B21919A800058B54E /* EKBabyView.h */,
+				FE91880C21919A800058B54E /* EKBabyView.m */,
+				FE91880E21919A8E0058B54E /* EKBabyView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FE470F812191726C00FFEDD7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FE9187FB219175D50058B54E /* EKScrollView.h */,
+				FE9187FC219175D50058B54E /* EKScrollView.m */,
+				FE9187FE2191787E0058B54E /* EKTableView.h */,
+				FE9187FF2191787E0058B54E /* EKTableView.m */,
+				FE7C01DA2191B922004B2433 /* EKTableView2.h */,
+				FE7C01DB2191B922004B2433 /* EKTableView2.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FE470F822191726C00FFEDD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE470F832191729A00FFEDD7 /* EKViewController.h */,
+				FE470F842191729A00FFEDD7 /* EKViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE470F6521916D8E00FFEDD7 /* EKSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE470F7C21916D8F00FFEDD7 /* Build configuration list for PBXNativeTarget "EKSlider" */;
+			buildPhases = (
+				654E6BC7756343E7BB18959E /* [CP] Check Pods Manifest.lock */,
+				FE470F6221916D8E00FFEDD7 /* Sources */,
+				FE470F6321916D8E00FFEDD7 /* Frameworks */,
+				FE470F6421916D8E00FFEDD7 /* Resources */,
+				272E86F3181753E4C64766BF /* [CP] Embed Pods Frameworks */,
+				17ECECB64E7BF83E3A8C4E54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKSlider;
+			productName = EKSlider;
+			productReference = FE470F6621916D8E00FFEDD7 /* EKSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE470F5E21916D8E00FFEDD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = maoziyue;
+				TargetAttributes = {
+					FE470F6521916D8E00FFEDD7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = FE470F6121916D8E00FFEDD7 /* Build configuration list for PBXProject "EKSlider" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE470F5D21916D8E00FFEDD7;
+			productRefGroup = FE470F6721916D8E00FFEDD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE470F6521916D8E00FFEDD7 /* EKSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE470F6421916D8E00FFEDD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE470F7621916D8F00FFEDD7 /* LaunchScreen.storyboard in Resources */,
+				FE470F7321916D8F00FFEDD7 /* Assets.xcassets in Resources */,
+				FE91880F21919A8E0058B54E /* EKBabyView.xib in Resources */,
+				FE470F7121916D8E00FFEDD7 /* Main.storyboard in Resources */,
+				FE91880A21918BE20058B54E /* EKBannerView.xib in Resources */,
+				FE91880521917EEC0058B54E /* EKTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17ECECB64E7BF83E3A8C4E54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EKSlider/Pods-EKSlider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		272E86F3181753E4C64766BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EKSlider/Pods-EKSlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654E6BC7756343E7BB18959E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EKSlider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE470F6221916D8E00FFEDD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE91880D21919A800058B54E /* EKBabyView.m in Sources */,
+				FE470F852191729A00FFEDD7 /* EKViewController.m in Sources */,
+				FE9188002191787E0058B54E /* EKTableView.m in Sources */,
+				FE91880821918BD10058B54E /* EKBannerView.m in Sources */,
+				FE9187FD219175D50058B54E /* EKScrollView.m in Sources */,
+				FE470F6E21916D8E00FFEDD7 /* ViewController.m in Sources */,
+				FE7C01DC2191B922004B2433 /* EKTableView2.m in Sources */,
+				FE470F7921916D8F00FFEDD7 /* main.m in Sources */,
+				FE91880421917EEC0058B54E /* EKTableViewCell.m in Sources */,
+				FE470F6B21916D8E00FFEDD7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE470F6F21916D8E00FFEDD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE470F7021916D8E00FFEDD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE470F7421916D8F00FFEDD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE470F7521916D8F00FFEDD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE470F7A21916D8F00FFEDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE470F7B21916D8F00FFEDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE470F7D21916D8F00FFEDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA01FD4AE46DAC6F3E5DF311 /* Pods-EKSlider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U849E38UE8;
+				INFOPLIST_FILE = EKSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maoziyue.EKSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE470F7E21916D8F00FFEDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAA23C1A3694256E95704E5 /* Pods-EKSlider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U849E38UE8;
+				INFOPLIST_FILE = EKSlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maoziyue.EKSlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE470F6121916D8E00FFEDD7 /* Build configuration list for PBXProject "EKSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE470F7A21916D8F00FFEDD7 /* Debug */,
+				FE470F7B21916D8F00FFEDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE470F7C21916D8F00FFEDD7 /* Build configuration list for PBXNativeTarget "EKSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE470F7D21916D8F00FFEDD7 /* Debug */,
+				FE470F7E21916D8F00FFEDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE470F5E21916D8E00FFEDD7 /* Project object */;
+}
